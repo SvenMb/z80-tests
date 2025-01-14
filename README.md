@@ -1,3 +1,15 @@
+# Z80 Testing Software for Z80-MBC2
+
+this is the port to the Z80-MBC2, you can find the original repository here:
+
+https://github.com/skiselev/z80-tests
+
+Since the Z80-MBC2 has no SIO-Chip it needs another possibility for a scratch byte. I added this functionality to the IOS on the ATMega32, so you also need to flash this IOS:
+
+https://github.com/SvenMb/Z80-MBC2
+
+original description follows here:
+---
 # Zilog Z80 and Compatibles Testing Software
 
 ## z80type
