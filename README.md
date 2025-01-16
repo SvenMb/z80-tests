@@ -4,9 +4,9 @@ this is the port to the Z80-MBC2, you can find the original repository here:
 
 https://github.com/skiselev/z80-tests
 
-Since the Z80-MBC2 has no SIO-Chip it needs another possibility for a scratch byte. I added this functionality to the IOS on the ATMega32, so you also need to flash this IOS:
+Since the Z80-MBC2 has no SIO-Chip it needs another possibility for a scratch byte. I added this functionality to the IOS on the ATMega32, so you also need to flash this IOS (use S220718-R290823_IOS-Z80-MBC2.ino, not the precompiled hex-file):
 
-https://github.com/SvenMb/Z80-MBC2
+https://github.com/SvenMb/Z80-MBC2/tree/tempbyte
 
 original description follows here:
 ---
